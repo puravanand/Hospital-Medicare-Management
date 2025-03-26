@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+.myIcons{
+	color:red !important;
+	
+}
+.carousel-item img {
+  object-fit: cover !important;
+  
+}
+.myNavbar{
+	background: linear-gradient(to right, darkgreen, lightcoral) !important;
+}
+
+.myCards:hover{
+		background-color: lightcoral !important;
+	transition: background-color 0.3s ease;
+	cursor:pointer;
+}
+
+.myMembers:hover{
+		background-color: lightcoral !important;
+	transition: background-color 0.3s ease;
+	cursor:pointer;
+}
+
+.imgCards:hover{
+	box-Shadow:0px 1px 3px 1px  lightcoral !important;
+	
+}
+
+
+
+@media (min-width: 1200px) {
+    .myMembers {
+        font-size: 10px !important;
+        height:23rem !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .myMembers {
+        font-size: 10px !important;
+        height:25rem !important;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .myCards {
+        font-size: 15px !important;
+        height:10rem !important;
+    }
+}
+
+
+.paintCard{
+	box-Shadow:0px 0px 10px 0px  green !important;;
+}
+/* admin Dashboard cards*/
+.adminCards:hover{
+	background-color: silver;
+	transition: background-color 0.3s ease;
+	cursor:pointer;
+}
+
+
+
